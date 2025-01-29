@@ -1,0 +1,20 @@
+.bannerSection {
+  width: 100%;
+  padding-bottom: 5rem; /* equivalent to pb-20 in Tailwind */
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem; /* equivalent to gap-10 in Tailwind */
+  align-items: center;
+  border-bottom: 1px solid black;
+  font-family: var(Montserrat, sans-serif); 
+  /* Responsive styles for large screens */
+}
+
+@media (min-width: 1024px) {
+  .bannerSection {
+    flex-direction: row;
+    gap: 0; /* equivalent to xl:gap-0 in Tailwind */
+  }
+}
+
+

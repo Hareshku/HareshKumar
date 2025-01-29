@@ -1,0 +1,79 @@
+.card {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadowOne);
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, var(--bodyColor), #202327);
+  transition: background-color 1s;
+    transition-duration: 1000ms;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    --tw-shadow: 20px 20px 21px #1c1e22, -21px -21px 26px #262a2e;
+    --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color), -10px -10px 19px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-gradient-to: #202327;
+    --tw-gradient-from: #212428;
+    --tw-gradient-to: rgb(33 36 40 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    border-radius: 0.5rem;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.card:hover {
+  background: linear-gradient(to bottom, #1a1a1a, #1a1a1a);
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.image {
+  width: 100%;
+  height: 15rem; /* 60/16 */
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  width: 100%;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  text-transform: uppercase;
+  color: var(--designColor);
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+.link {
+  color: #3b82f6; /* Tailwind's blue-500 */
+  text-decoration: none;
+  font-size: 0.7rem
+}
+
+.description {
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  margin-top: 0.75rem;
+  transition: color 0.3s;
+}
+
+.description:hover {
+  color: #f5f5f5;
+}

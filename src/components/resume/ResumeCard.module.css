@@ -1,0 +1,164 @@
+.container {
+  width: 100%;
+  height: 33%;
+  display: flex;
+}
+
+.timeline {
+    width: 2.5rem;
+    height: 6px;
+    margin-top: 4rem;
+    position: relative;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 0.4;
+}
+
+.timelineDot {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  top: -0.5rem;
+  left: -0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.innerDot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: rgb(33 36 40);
+  transition: background-color 0.3s ease;
+}
+/* .innerDotHover {
+  background: red;
+} */
+
+.card {
+gap: 2.5rem;
+transition-duration: 300ms;
+--tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+--tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color), -10px -10px 19px var(--tw-shadow-color);
+box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+padding: 1rem 2.5rem 1rem 2.5rem;
+background: rgba(0, 0, 0, 0.3);
+opacity: 1;
+border-radius: 0.5rem;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+display: flex;
+}
+
+
+/* Add these new hover styles */
+.container:hover .card {
+  background-color: black;
+  opacity: 1;
+  color: white;
+}
+
+.container:hover .innerDot {
+  background-color: red;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.headerLarge {
+  flex-direction: row;
+  gap: 0;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.titleLarge {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  color: #a3a3a3;
+  transition: color 0.3s ease;
+}
+
+.container:hover .title, .container:hover .subtitle, .container:hover .description {
+  color: white;
+}
+
+.result {
+    --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color), -10px -10px 19px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-text-opacity: 1;
+    color: rgb(255 1 79 / var(--tw-text-opacity));
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --tw-bg-opacity: 0.25;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.description {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #a3a3a3;
+  transition: color 0.3s ease;
+}
+
+.descriptionLarge {
+  font-size: 1rem;
+}
+
+@media (max-width: 380px) {
+ .title{
+  font-size: 11px;
+ }
+ .card{
+  padding: 1rem 1rem 1rem 1rem;
+ }
+ .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+}
+
+@media (max-width: 450px) {
+  .title{
+   font-size: 11px;
+  }
+  .card{
+   padding: 1rem 1rem 1rem 1rem;
+  }
+  .header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 1rem;
+ }
+ }

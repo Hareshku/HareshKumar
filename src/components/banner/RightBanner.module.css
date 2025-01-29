@@ -1,0 +1,57 @@
+.rightBanner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 1024px) {
+  .rightBanner {
+    width: 50%; /* Equivalent to lgl:w-1/2 in Tailwind */
+  }
+}
+
+.bannerImg {
+  width: 350px;
+  height: 500px;
+  z-index: 10;
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 1024px) {
+  .bannerImg {
+    width: 350px; /* Equivalent to lgl:w-[500px] */
+    height: 500px; /* Equivalent to lgl:h-[680px] */
+  }
+}
+
+.gradientBox {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to right, #1e2024, #202327);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color), -10px -10px 19px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-gradient-to: #202327;
+    --tw-gradient-from: #1e2024;
+    --tw-gradient-to: rgb(30 32 36 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 1024px) {
+  .gradientBox {
+    width: 350px; /* Equivalent to lgl:w-[500px] */
+    height: 350px; /* Equivalent to lgl:h-[500px] */
+  }
+}

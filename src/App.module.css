@@ -1,0 +1,26 @@
+/* Root container styles */
+.appContainer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(33 36 40);
+  color: rgb(196 207 222);
+  padding: 0rem 1rem 0rem 1rem; /* px-4 equivalent */
+}
+
+/* Inner content wrapper */
+.contentWrapper {
+  max-width: 1280px; /* max-w-screen-xl */
+  margin: 0 100px; /* mx-auto */
+}
+
+@media (max-width: 450px) {
+  .contentWrapper {
+    margin: 0 10px; /* mx-4 */
+  }
+}
+
+@media (max-width: 380px) {
+  .contentWrapper {
+    margin: 0 10px; /* mx-4 */
+  }
+}

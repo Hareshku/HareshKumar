@@ -1,0 +1,103 @@
+/* Sidebar styling for small devices */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 70%;
+  max-width: 300px;
+  background-color: #ffffff;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  z-index: 20;
+  transform: translateX(0);
+  animation: slideIn 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.sidebarLogo {
+  height: 40px;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.sidebarDescription {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.sidebarLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.sidebarLink {
+  margin-bottom: 1rem;
+}
+
+.sidebarLink a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.sidebarLink a:hover {
+  color: #007bff;
+}
+
+.findMe {
+  margin-top: 2rem;
+}
+
+.findMe h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialIcon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.socialIcon:hover {
+  color: #007bff;
+}
+
+.closeButton {
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+/* Sidebar animation for smooth appearance */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Responsive only for small devices */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 80%;
+  }
+}

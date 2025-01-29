@@ -1,0 +1,92 @@
+.card {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-one);
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, var(--body-color), #202327);
+  transition: background-color 0.1s;
+  transition-duration: 100ms;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color), -10px -10px 19px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-gradient-to: #202327;
+  --tw-gradient-from: #212428;
+  --tw-gradient-to: rgb(33 36 40 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  border-radius: 0.5rem;
+  align-items: center;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+}
+
+.card:hover {
+  background: linear-gradient(to bottom, black, #1e2024);
+}
+
+.contentWrapper {
+  height: 18rem;
+  overflow-y: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  transform: translateY(4rem);
+  transition: transform 0.5s;
+}
+
+.iconWrapper {
+  width: 2.5rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  color: var(--design-color);
+  --tw-text-opacity: 1;
+  color: rgb(255 1 79 / var(--tw-text-opacity));
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  border-radius: 0.25rem;
+  background: var(--design-color);
+  display: inline-flex;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-family: var(--title-font);
+  font-weight: bold;
+  color: #d1d5db;
+}
+
+.description {
+  font-size: 1rem;
+  color: #9ca3af;
+}
+
+.arrowIcon {
+  font-size: 1.5rem;
+  color: rgb(255 1 79 / var(--tw-text-opacity));
+}
