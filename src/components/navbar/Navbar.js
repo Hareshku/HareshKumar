@@ -33,8 +33,7 @@ const Navbar = () => {
               <div>
                 <img className={styles.sidebarLogo} src={logo} alt="logo" />
                 <p className={styles.sidebarDescription}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum soluta perspiciatis
-                  molestias enim cum repellat, magnam exercitationem distinctio aliquid nam.
+                  I am a Software Engineer specializing in MERN Stack Development, with six months of experience as a React Developer. I create responsive, user-friendly, and visually appealing websites that deliver seamless user experiences. Customer satisfaction is my top priority, and I am committed to staying up-to-date with the latest web technologies to build innovative and high-performance applications.
                 </p>
               </div>
               <ul className={styles.sidebarLinks}>
@@ -57,16 +56,22 @@ const Navbar = () => {
               <div className={styles.findMe}>
                 <h2>Find me in</h2>
                 <div className={styles.socialIcons}>
-                  <span className={styles.socialIcon}>
-                    <FaFacebookF />
-                  </span>
-                  <span className={styles.socialIcon}>
-                    <FaTwitter />
-                  </span>
-                  <span className={styles.socialIcon}>
-                    <FaLinkedinIn />
-                  </span>
-                </div>
+            <a href="https://github.com/Hareshku" target="blank">
+              <span className={styles.socialIcon}>
+                <FaGithub />
+              </span>
+            </a>
+            <a href="https://www.facebook.com/share/1E6w8NiGtU/" target="blank">
+              <span className={styles.socialIcon}>
+                <FaFacebookF />
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/haresh-kumar-9bb353251/" target="blank">
+              <span className={styles.socialIcon}>
+                <FaLinkedinIn />
+              </span>
+            </a>
+          </div>
               </div>
               <span onClick={() => setShowMenu(false)} className={styles.closeButton}>
                 <MdClose />
