@@ -239,6 +239,9 @@
 
 /* Responsive only for small devices */
 @media (max-width: 768px) {
+    .navbar{
+        height: 4.5rem;
+    }
   .sidebar {
     width: 100%; /* Occupy the full width of the screen */
   }
