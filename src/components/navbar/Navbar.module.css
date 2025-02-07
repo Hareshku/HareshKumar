@@ -244,3 +244,25 @@
   }
 }
 
+
+@media (max-width: 480px) {
+  .navbar{
+    height: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar{
+    height: 4rem;
+  }
+}
+@media (max-width: 391px) {
+  .navbar{
+    height: 4rem;
+  }
+}
+@media (max-width: 380px) {
+  .navbar{
+    height: 3.5rem;
+  }
+}
