@@ -127,6 +127,21 @@
   color: var(--designColor);
 }
 
+@media (min-width: 768px) {
+
+  .navbar{
+    height: 4.5rem;
+  }
+  .navLinks {
+    display: flex;
+    gap: 2.5rem;
+  }
+
+  .toggleButton {
+    display: none;
+  }
+}
+
 /* Sidebar styling for small devices */
 .sidebar {
   position: fixed;
@@ -224,20 +239,8 @@
 
 /* Responsive only for small devices */
 @media (max-width: 768px) {
-    .navbar{
-        height: 4.5rem;
-    }
   .sidebar {
     width: 100%; /* Occupy the full width of the screen */
-  }
-    
-  .navLinks {
-    display: flex;
-    gap: 2.5rem;
-  }
-
-  .toggleButton {
-    display: none;
   }
 }
 
