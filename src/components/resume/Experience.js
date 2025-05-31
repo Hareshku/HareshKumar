@@ -23,10 +23,10 @@ const Experience = () => {
       <div>
         <div className={styles.resumeSection}>
           <ResumeCard
-            title="React Developer"
-            subTitle="NetworkAlgo Business Solution (2024 - present)"
+            title="React Developer Intern"
+            subTitle="NetworkAlgo Business Solution (2024 - 2025)"
             result="India"
-            des="I am working as a react developer in NetworkAlgo Business Solution. I am handling the front-end part of the project."
+            des="I am working as a react developer in NetworkAlgo Business Solution. I am handled the front-end part of the project."
           />
         </div>
       </div>
