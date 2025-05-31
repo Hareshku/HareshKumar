@@ -35,7 +35,7 @@ const Projects = () => {
         <ProjectsCard
           title="Smart Lost and Find"
           des="As my 7th-semester final project for the Web Engineering course, I developed this website for a lost and found items using HTML, CSS, and JavaScript, Express, NodeJs and MySQL."
-          src={project_4}
+          src={project_4_1}
           live_demo="https://lost-and-found-portal.vercel.app/"
         />
         <ProjectsCard
