@@ -33,10 +33,10 @@ const Projects = () => {
           live_demo="https://github.com/Hareshku/E-commerce-website"
         />
         <ProjectsCard
-          title="Mobile App Development"
-          des="As my 5th-semester final project for the Software Construction and Development course, I developed this website for a mobile app development company using HTML, CSS, and JavaScript."
+          title="Smart Lost and Find"
+          des="As my 7th-semester final project for the Web Engineering course, I developed this website for a lost and found items using HTML, CSS, and JavaScript, Express, NodeJs and MySQL."
           src={project_4}
-          live_demo="https://hareshku.github.io/SCD-Project/"
+          live_demo="https://lost-and-found-portal.vercel.app/"
         />
         <ProjectsCard
           title="E-Learning Mobile App"
