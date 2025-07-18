@@ -13,7 +13,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Haresh Kumar</h3>
         <p className="text-base text-gray-400 tracking-wide">
-        I am a Software Engineer specializing in MERN Stack Development, with six months of experience as a React Developer. I create responsive, user-friendly applications and continuously enhance my web development skills.</p>
+        I am a Software Engineer specializing in MERN Stack Development, with 1 year of experience as a MERN stack Developer. I create responsive, user-friendly applications and continuously enhance my web development skills.</p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+92-3065805656</span>
         </p>
