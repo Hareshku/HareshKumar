@@ -79,7 +79,7 @@ const LeftBanner = () => {
         </div>
       </div>
          <a 
-          href="https://drive.google.com/file/d/1xrfmwZ84N-CopokjecWa681a52PcUF_H/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1T7nhKXJZ9GNQgXbRUoJ2CSo_iPxWh822/view?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer" 
          className={styles.download_resume}
