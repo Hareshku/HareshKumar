@@ -1,0 +1,54 @@
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .aboutGrid {
+    grid-template-columns: 2fr 3fr;
+  }
+}
+
+.imageCard {
+  background: linear-gradient(to right, var(--body-color), #202327);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.bioCard {
+  background: linear-gradient(to right, var(--body-color), #202327);
+  border-radius: 0.75rem;
+  padding: 2rem;
+  --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.bioHeading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e5e7eb;
+  font-family: var(--title-font);
+}
+
+.bioText {
+  color: #9ca3af;
+  line-height: 1.7;
+  font-size: 1rem;
+}

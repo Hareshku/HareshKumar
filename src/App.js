@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
+import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
 import styles from "./App.module.css";
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <div className={styles.contentWrapper}>
         <Banner />
+        <About />
         <Features />
         <Projects />
         <Resume />

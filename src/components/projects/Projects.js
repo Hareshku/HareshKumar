@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/Title';
-import { projectOne, projectTwo, projectThree, project_4, project_5, project_6 } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, project_4_1, project_5, project_6 } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import styles from './Projects.module.css';
 

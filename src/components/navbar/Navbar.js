@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { FiMenu } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { logo } from '../../assets';
 import { navLinksdata } from '../../constants';
 import styles from './Navbar.module.css';
@@ -56,22 +56,22 @@ const Navbar = () => {
               <div className={styles.findMe}>
                 <h2>Find me in</h2>
                 <div className={styles.socialIcons}>
-            <a href="https://github.com/Hareshku" target="blank">
-              <span className={styles.socialIcon}>
-                <FaGithub />
-              </span>
-            </a>
-            <a href="https://www.facebook.com/share/1E6w8NiGtU/" target="blank">
-              <span className={styles.socialIcon}>
-                <FaFacebookF />
-              </span>
-            </a>
-            <a href="https://www.linkedin.com/in/haresh-kumar-9bb353251/" target="blank">
-              <span className={styles.socialIcon}>
-                <FaLinkedinIn />
-              </span>
-            </a>
-          </div>
+                  <a href="https://github.com/Hareshku" target="blank">
+                    <span className={styles.socialIcon}>
+                      <FaGithub />
+                    </span>
+                  </a>
+                  <a href="https://www.facebook.com/share/1E6w8NiGtU/" target="blank">
+                    <span className={styles.socialIcon}>
+                      <FaFacebookF />
+                    </span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/haresh-kumar-9bb353251/" target="blank">
+                    <span className={styles.socialIcon}>
+                      <FaLinkedinIn />
+                    </span>
+                  </a>
+                </div>
               </div>
               <span onClick={() => setShowMenu(false)} className={styles.closeButton}>
                 <MdClose />

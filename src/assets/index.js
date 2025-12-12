@@ -3,7 +3,7 @@ import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.png";
 import projectTwo from "./images/projects/projectTwo.png";
 import projectThree from "./images/projects/projectThree.png";
-import project_4 from "./images/projects/project_4.png";
+import project_4_1 from "./images/projects/project_4_1.png";
 import project_5 from "./images/projects/project_5.png";
 import project_6 from "./images/projects/project_6.webp";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
@@ -18,7 +18,7 @@ export {
   projectOne,
   projectTwo,
   projectThree,
-  project_4,
+  project_4_1,
   project_5,
   project_6,
   testimonialOne,
