@@ -1,7 +1,8 @@
 import React from "react";
 import Title from "../layouts/Title";
 import styles from "./About.module.css";
-import { bannerImg } from "../../assets";
+// import { bannerImg } from "../../assets";
+import {profileImg} from "../../assets/index.js";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
       <div className={styles.aboutGrid}>
         <div className={styles.imageCard}>
           <img
-            src={bannerImg}
+            src={profileImg}
             alt="Portrait"
             className={styles.image}
           />

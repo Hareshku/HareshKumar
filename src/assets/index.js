@@ -11,6 +11,7 @@ import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import testimonial_3 from "./images/testmonial/testimonial_3.jpg";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import profileImg from "./images/projects/profile.jpeg";
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   testimonial_3,
   quote,
   contactImg,
+  profileImg,
 };
