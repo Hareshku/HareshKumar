@@ -1,5 +1,6 @@
 import React from 'react';
 import { bannerImg } from "../../assets/index";
+
 import styles from './RightBanner.module.css';
 
 const RightBanner = () => {
