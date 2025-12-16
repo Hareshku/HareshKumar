@@ -8,6 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
+import Competitions from "./components/competitions/Competitions";
 import Testimonial from "./components/tesimonial/Testimonial";
 import styles from "./App.module.css";
 
@@ -21,6 +22,7 @@ function App() {
         <Features />
         <Projects />
         <Resume />
+        <Competitions />
         <Testimonial />
         <Contact />
         <Footer />

@@ -12,6 +12,10 @@ import testimonial_3 from "./images/testmonial/testimonial_3.jpg";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import profileImg from "./images/projects/profile.jpeg";
+import findUni from "./images/projects/findUni.png";
+import Farmer from "./images/projects/Farmer.png";
+import Podify from "./images/projects/podify.png";
+
 
 export {
   logo,
@@ -28,4 +32,7 @@ export {
   quote,
   contactImg,
   profileImg,
+  findUni,
+  Farmer,
+  Podify
 };
