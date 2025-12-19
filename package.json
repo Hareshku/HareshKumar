@@ -1,6 +1,7 @@
 {
   "name": "portfolioyoutube",
   "version": "0.1.0",
+  "homepage": "https://hareshku.github.io/HareshKumar/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,6 +21,8 @@
   "scripts": {
     "start": "react-scripts --max_old_space_size=4096 start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^3.2.4"
   }
 }
