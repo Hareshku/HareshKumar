@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/HareshKumar/static/css/main.ea991f8d.css",
-    "main.js": "/HareshKumar/static/js/main.c5f25327.js",
+    "main.css": "/HareshKumar/static/css/main.89f8ff27.css",
+    "main.js": "/HareshKumar/static/js/main.1368d813.js",
+    "static/media/findUni.png": "/HareshKumar/static/media/findUni.38d97dccff2d5d4c1784.png",
+    "static/media/Farmer.png": "/HareshKumar/static/media/Farmer.0ee9e1984af160de0e8f.png",
     "static/media/project_5.png": "/HareshKumar/static/media/project_5.8cee72e25b6b86018bb3.png",
     "static/media/projectThree.png": "/HareshKumar/static/media/projectThree.461f8a4dfe161329ea5f.png",
     "static/media/projectOne.png": "/HareshKumar/static/media/projectOne.d1709baf9a091066855c.png",
     "static/media/projectTwo.png": "/HareshKumar/static/media/projectTwo.fc365132795f055a5e41.png",
     "static/media/project_4_1.png": "/HareshKumar/static/media/project_4_1.5211233844e4ecc4fcfa.png",
+    "static/media/podify.png": "/HareshKumar/static/media/podify.eb462041a32e588e1cec.png",
     "static/media/bannerImg.png": "/HareshKumar/static/media/bannerImg.15ec6912a5a7373c3a24.png",
+    "static/media/profile.jpeg": "/HareshKumar/static/media/profile.9ac67d1a1816747f1ae8.jpeg",
     "static/media/logo.png": "/HareshKumar/static/media/logo.16a3b85df973e08b8f80.png",
     "static/media/contactImg.png": "/HareshKumar/static/media/contactImg.8ddfbfd11798f881db54.png",
     "static/media/project_6.webp": "/HareshKumar/static/media/project_6.b9659f5b3750f033315a.webp",
@@ -19,11 +23,11 @@
     "static/media/slick.ttf": "/HareshKumar/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/HareshKumar/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/HareshKumar/index.html",
-    "main.ea991f8d.css.map": "/HareshKumar/static/css/main.ea991f8d.css.map",
-    "main.c5f25327.js.map": "/HareshKumar/static/js/main.c5f25327.js.map"
+    "main.89f8ff27.css.map": "/HareshKumar/static/css/main.89f8ff27.css.map",
+    "main.1368d813.js.map": "/HareshKumar/static/js/main.1368d813.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea991f8d.css",
-    "static/js/main.c5f25327.js"
+    "static/css/main.89f8ff27.css",
+    "static/js/main.1368d813.js"
   ]
 }
