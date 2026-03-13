@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HareshKumar/static/css/main.156fb648.css",
-    "main.js": "/HareshKumar/static/js/main.1368d813.js",
+    "main.js": "/HareshKumar/static/js/main.02037303.js",
     "static/media/findUni.png": "/HareshKumar/static/media/findUni.38d97dccff2d5d4c1784.png",
     "static/media/Farmer.png": "/HareshKumar/static/media/Farmer.0ee9e1984af160de0e8f.png",
     "static/media/project_5.png": "/HareshKumar/static/media/project_5.8cee72e25b6b86018bb3.png",
@@ -24,10 +24,10 @@
     "static/media/slick.woff": "/HareshKumar/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/HareshKumar/index.html",
     "main.156fb648.css.map": "/HareshKumar/static/css/main.156fb648.css.map",
-    "main.1368d813.js.map": "/HareshKumar/static/js/main.1368d813.js.map"
+    "main.02037303.js.map": "/HareshKumar/static/js/main.02037303.js.map"
   },
   "entrypoints": [
     "static/css/main.156fb648.css",
-    "static/js/main.1368d813.js"
+    "static/js/main.02037303.js"
   ]
 }
