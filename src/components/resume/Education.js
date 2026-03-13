@@ -39,7 +39,7 @@ const Education = () => {
           <ResumeCard
             title="Graduation"
             subTitle="MUET Jamshoro - (2021 - 2025)"
-            result="3.6/4.0"
+            result="3.2/4.0"
             des="I did my graduation in Software Engineering from Mehran University Of Engineering and Technology Jamshoro."
           />
         </div>
