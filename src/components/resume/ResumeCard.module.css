@@ -1,16 +1,17 @@
 .container {
   width: 100%;
-  height: 33%;
+  height: 100%;
   display: flex;
+  flex: 1;
 }
 
 .timeline {
-    width: 2.5rem;
-    height: 6px;
-    margin-top: 4rem;
-    position: relative;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-    --tw-bg-opacity: 0.4;
+  width: 2.5rem;
+  height: 6px;
+  margin-top: 4rem;
+  position: relative;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.4;
 }
 
 .timelineDot {
@@ -33,24 +34,27 @@
   background: rgb(33 36 40);
   transition: background-color 0.3s ease;
 }
+
 /* .innerDotHover {
   background: red;
 } */
 
 .card {
-gap: 2.5rem;
-transition-duration: 300ms;
---tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
---tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color), -10px -10px 19px var(--tw-shadow-color);
-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-padding: 1rem 2.5rem 1rem 2.5rem;
-background: rgba(0, 0, 0, 0.3);
-opacity: 1;
-border-radius: 0.5rem;
-justify-content: center;
-flex-direction: column;
-width: 100%;
-display: flex;
+  gap: 2.5rem;
+  transition-duration: 300ms;
+  --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color), -10px -10px 19px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  border-radius: 0.5rem;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  min-height: 200px;
 }
 
 
@@ -96,30 +100,48 @@ display: flex;
   transition: color 0.3s ease;
 }
 
-.container:hover .title, .container:hover .subtitle, .container:hover .description {
+.company {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  color: #a3a3a3;
+  transition: color 0.3s ease;
+}
+
+.date {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.container:hover .title,
+.container:hover .subtitle,
+.container:hover .company,
+.container:hover .date,
+.container:hover .description {
   color: white;
 }
 
 .result {
-    --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color), -10px -10px 19px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    --tw-text-opacity: 1;
-    color: rgb(255 1 79 / var(--tw-text-opacity));
-    font-weight: 500;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    --tw-bg-opacity: 0.25;
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-    border-radius: 0.5rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color), -10px -10px 19px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-text-opacity: 1;
+  color: rgb(255 1 79 / var(--tw-text-opacity));
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  --tw-bg-opacity: 0.25;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .description {
@@ -134,31 +156,35 @@ display: flex;
 }
 
 @media (max-width: 380px) {
- .title{
-  font-size: 11px;
- }
- .card{
-  padding: 1rem 1rem 1rem 1rem;
- }
- .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 1rem;
-}
+  .title {
+    font-size: 11px;
+  }
+
+  .card {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 450px) {
-  .title{
-   font-size: 11px;
+  .title {
+    font-size: 11px;
   }
-  .card{
-   padding: 1rem 1rem 1rem 1rem;
+
+  .card {
+    padding: 1rem 1rem 1rem 1rem;
   }
+
   .header {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   gap: 1rem;
- }
- }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}

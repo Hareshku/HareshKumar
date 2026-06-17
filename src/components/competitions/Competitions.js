@@ -2,9 +2,18 @@ import React from 'react';
 import Title from '../layouts/Title';
 import CompetitionCard from './CompetitionCard';
 import styles from './Competitions.module.css';
-import { Podify, findUni, Farmer } from "../../assets";
+import { Podify, findUni, Farmer, aiAgent } from "../../assets";
 
 const competitions = [
+  {
+    name: "Agentic AI Hackathon with IBM watsonx Orchestrate",
+    location: "Online",
+    project: "Tackle Simulation Studio",
+    link: "https://hareshku.github.io/Agentic-AI-Hackathon/",
+    role: "Frontend Developer",
+    techStack: "React.js, Tailwind CSS, React Flow",
+    src: aiAgent,
+  },
   {
     name: "Code with Kiro",
     location: "Washington, USA (Online)",

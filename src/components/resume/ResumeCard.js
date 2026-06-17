@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ResumeCard.module.css";
 
-const ResumeCard = ({ title, subTitle, result, des }) => {
+const ResumeCard = ({ title, company, date, result, des }) => {
   return (
     <div className={styles.container}>
       <div className={styles.timeline}>
@@ -18,10 +18,17 @@ const ResumeCard = ({ title, subTitle, result, des }) => {
               {title}
             </h3>
             <p
-              className={`${styles.subtitle} group-hover:${styles.subtitleHover}`}
+              className={`${styles.company} group-hover:${styles.companyHover}`}
             >
-              {subTitle}
+              {company}
             </p>
+            {date && (
+              <p
+                className={`${styles.date} group-hover:${styles.dateHover}`}
+              >
+                ({date})
+              </p>
+            )}
           </div>
           <div>
             <p className={styles.result}>{result}</p>

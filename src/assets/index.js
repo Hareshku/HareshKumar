@@ -15,6 +15,7 @@ import profileImg from "./images/projects/profile.jpeg";
 import findUni from "./images/projects/findUni.png";
 import Farmer from "./images/projects/Farmer.png";
 import Podify from "./images/projects/podify.png";
+import aiAgent from "./images/projects/ai-agent.png";
 
 
 export {
@@ -34,5 +35,6 @@ export {
   profileImg,
   findUni,
   Farmer,
-  Podify
+  Podify,
+  aiAgent
 };

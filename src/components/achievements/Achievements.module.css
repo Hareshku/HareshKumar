@@ -1,0 +1,185 @@
+/* Achievements Section */
+.section {
+  width: 100%;
+  padding: 5rem 0;
+  border-bottom: 1px solid #000;
+  background-color: #212428;
+}
+
+/* Scroll Container */
+.scrollContainer {
+  width: 100%;
+  overflow: hidden;
+  mask: linear-gradient(90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent);
+  -webkit-mask: linear-gradient(90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent);
+}
+
+/* Scrolling Track */
+.scrollTrack {
+  display: flex;
+  gap: 2rem;
+  width: fit-content;
+  animation: scroll 60s linear infinite;
+}
+
+/* Achievement Card */
+.achievementCard {
+  min-width: 800px;
+  max-width: 800px;
+  padding: 3rem 2.5rem;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  border-radius: 1rem;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgba(255, 1, 79, 0.1);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.achievementCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 1, 79, 0.3);
+}
+
+/* Quote Icon */
+.quoteIcon {
+  font-size: 4rem;
+  color: #ff014f;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  font-family: "Times New Roman", serif;
+}
+
+/* Achievement Title */
+.achievementTitle {
+  color: #ff014f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Achievement Text */
+.achievementText {
+  color: #c4cfde;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* Highlight Style */
+.highlight {
+  color: #ff014f;
+  font-weight: 600;
+  background: linear-gradient(135deg, rgba(255, 1, 79, 0.1), rgba(255, 1, 79, 0.05));
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(255, 1, 79, 0.2);
+}
+
+/* Scroll Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause animation on hover */
+.scrollContainer:hover .scrollTrack {
+  animation-play-state: paused;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .achievementCard {
+    min-width: 650px;
+    max-width: 650px;
+    padding: 2.5rem 2rem;
+  }
+
+  .achievementTitle {
+    font-size: 1.3rem;
+  }
+
+  .achievementText {
+    font-size: 1rem;
+  }
+
+  .quoteIcon {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+
+  .achievementCard {
+    min-width: 500px;
+    max-width: 500px;
+    padding: 2rem 1.5rem;
+  }
+
+  .achievementTitle {
+    font-size: 1.2rem;
+  }
+
+  .achievementText {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .quoteIcon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .scrollTrack {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .achievementCard {
+    min-width: 350px;
+    max-width: 350px;
+    padding: 1.5rem 1rem;
+  }
+
+  .achievementTitle {
+    font-size: 1.1rem;
+  }
+
+  .achievementText {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .quoteIcon {
+    font-size: 2.5rem;
+  }
+
+  .scrollTrack {
+    gap: 1rem;
+  }
+}

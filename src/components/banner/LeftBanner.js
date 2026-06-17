@@ -9,6 +9,8 @@ import {
 } from "react-icons/fa";
 import { SiAliexpress, SiJavascript, SiMongodb, SiNodedotjs } from "react-icons/si";
 import styles from "./LeftBanner.module.css";
+import { SiLeetcode } from "react-icons/si";
+
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -24,7 +26,7 @@ const LeftBanner = () => {
       <div className={styles.headerContainer}>
         <h4 className={styles.welcomeText}>WELCOME TO MY WORLD</h4>
         <h1 className={styles.mainHeading}>
-          Hi, I'm <span className={styles.highlight }>Haresh Kumar</span>
+          Hi, I'm <span className={styles.highlight}>Haresh Kumar</span>
         </h1>
         <h2 className={styles.subHeading}>
           A <span>{text}</span>
@@ -35,24 +37,26 @@ const LeftBanner = () => {
         <div>
           <h2 className={styles.sectionTitle}>Find me in</h2>
           <div className={styles.iconContainer}>
+            <a href="https://www.linkedin.com/in/haresh-kumar-9bb353251/" target="blank">
+              <span className={styles.bannerIcon}>
+                <FaLinkedinIn />
+              </span>
+            </a>
             <a href="https://github.com/Hareshku" target="blank">
               <span className={styles.bannerIcon}>
                 <FaGithub />
               </span>
             </a>
+
+            <a href="https://leetcode.com/u/Haresh2153/" target="blank">
+              <span className={styles.bannerIcon}>
+                <SiLeetcode />
+              </span>
+            </a>
+
             <a href="https://www.facebook.com/share/1E6w8NiGtU/" target="blank">
               <span className={styles.bannerIcon}>
                 <FaFacebookF />
-              </span>
-            </a>
-            <a href="https://www.instagram.com/hareesh8257/" target="blank">
-              <span className={styles.bannerIcon}>
-                <FaInstagramSquare />
-              </span>
-            </a>
-            <a href="https://www.linkedin.com/in/haresh-kumar-9bb353251/" target="blank">
-              <span className={styles.bannerIcon}>
-                <FaLinkedinIn />
               </span>
             </a>
           </div>
@@ -78,14 +82,14 @@ const LeftBanner = () => {
           </div>
         </div>
       </div>
-         <a 
-          href="https://drive.google.com/file/d/1zEwAg845uM1ovouMschhsv-5Vp-nS6Yx/view?usp=sharing" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-         className={styles.download_resume}
-         >
+      <a
+        href="https://drive.google.com/file/d/1JUQvc1O0hq1iDjtlRZlq1Xklx7jnnF-j/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.download_resume}
+      >
         Download Resume
-        </a>
+      </a>
     </div>
   );
 };

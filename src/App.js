@@ -7,6 +7,7 @@ import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import About from "./components/about/About";
+import Achievements from "./components/achievements/Achievements";
 import Resume from "./components/resume/Resume";
 import Competitions from "./components/competitions/Competitions";
 import Testimonial from "./components/tesimonial/Testimonial";
@@ -19,6 +20,7 @@ function App() {
       <div className={styles.contentWrapper}>
         <Banner />
         <About />
+        <Achievements />
         <Features />
         <Projects />
         <Resume />
